@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLoading.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateWindows.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="3DMaths.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSequence.h">
+      <Filter>Animation_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="HWND_Utils.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Util\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStruct.h">
+      <Filter>DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDataStruct.h">
+      <Filter>DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationAsset.h">
+      <Filter>DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorHelperController.h">
+      <Filter>Util\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Util\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObjectData.h">
+      <Filter>Util\ObjectPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physx.h">
+      <Filter>Util\PhysicsSim</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleObjectData.h">
+      <Filter>Util\ObjectPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\Bones.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\SkyBox.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\Axis.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\Hammer.h">
+      <Filter>Object\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\Fly.h">
+      <Filter>Object\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\Head.h">
+      <Filter>Object\Body</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLoading.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateWindows.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSequence.cpp">
+      <Filter>Animation_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="HWND_Utils.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Controller.cpp">
+      <Filter>Util\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationAsset.cpp">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorHelperController.cpp">
+      <Filter>Util\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Util\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsObjectData.cpp">
+      <Filter>Util\ObjectPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physx.cpp">
+      <Filter>Util\PhysicsSim</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleObjectData.cpp">
+      <Filter>Util\ObjectPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\Bones.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\Hammer.cpp">
+      <Filter>Object\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\Fly.cpp">
+      <Filter>Object\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\Head.cpp">
+      <Filter>Object\Body</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\BlinnPhong.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\BoundBox.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\Lights.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\SkyBox.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="Compute.hlsl">
+      <Filter>Compute</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\Axis.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\Character_Body.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\Hammer.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\Head.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\RenderScreen.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\Blur.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\Sobel.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="10. Blinn-Phong Lighting.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{2350a15e-5981-492d-b4fb-29253580e50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{e84c9453-3963-42e6-b203-7e612779caf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{3abf27d8-d74e-414c-aa1b-c759dd52226e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compute">
+      <UniqueIdentifier>{6c238eff-edeb-4ffd-aeb7-31ddb3612880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{39284181-7303-47e5-8302-ce81c9db7f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation_Engine">
+      <UniqueIdentifier>{8de9d1cf-ea2b-4eb2-be87-8b38d3396feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{d2b10410-be68-4d2d-8af3-35921e844a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Controller">
+      <UniqueIdentifier>{99e78f48-63ce-4bf9-be6d-20cdeef089dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure">
+      <UniqueIdentifier>{f39f9044-151f-43be-89e8-5210217036c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Level">
+      <UniqueIdentifier>{54b1cfb6-d492-471f-8ce5-3e278b6a40af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\ObjectPhysics">
+      <UniqueIdentifier>{7ccad238-dd84-493d-bea1-bd555593cf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\PhysicsSim">
+      <UniqueIdentifier>{67e0c9cf-bd08-4a2a-bb31-9b833fe70a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Weapon">
+      <UniqueIdentifier>{bca45085-737a-4a8a-9c1a-58f2fcc87602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Body">
+      <UniqueIdentifier>{72934712-1841-4744-a86e-d1f0b167946d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
